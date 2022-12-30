@@ -16,7 +16,7 @@ This repository consists of two parts: segmentation of MRI regions and measureme
 
 #### Installing BrainSuite's Nipype interface
 This code has been tested on
-- Mac Monterey (For Windows users please use a 64-bit Linux VM)
+- Mac Monterey (Windows is not supported, for Windows users please use a 64-bit Linux VM)
 - Python 3.9
 - BrainSuite v.21a
 
