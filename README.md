@@ -32,7 +32,7 @@ cd nipype
 pip install -r requirements.txt
 python setup.py develop
 ```
-* means the version of your anaconda/python. To test it, run ```from nipype.interfaces import brainsuite``` in python.
+```*``` means the version of your anaconda/python. To test it, run ```from nipype.interfaces import brainsuite``` in python.
 
 ### Automatic segmentation of MRI based on BrainSuite
 This pipeline is based on [BrainSuite](http://brainsuite.org/).
