@@ -1,8 +1,7 @@
 ## MRI-SSB: Automatic segmentation and evulation of skull/scalp/brain from batch T1 MRI datasets
 This is the official implementation of the MRI analysis part of the paper:
 
-### [#to-do: paper title and link]
-(https://stars.chromeexperiments.com/)
+### [#to-do: paper title and link](https://stars.chromeexperiments.com)
 
 [Junhao Zhang](https://junha0zhang.github.io/), [Ruiqing Ni](https://biomed.ee.ethz.ch/institute/People/person-detail.html?persid=225279)
 
