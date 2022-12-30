@@ -23,20 +23,20 @@ This code has been tested on
 Steps:
 1. Download and install [BrainSuite](http://brainsuite.org/).
 2. Add BrainSuite's bin directory to your system's path. The default shell of MAC is ZSH, so in the .zshrc file (which is hidden by default) add the following lines in the end: 
-  ```
-  export PATH=/The/path/to/your/brainsuite/bin:$PATH
-  export PATH=/The/path/to/your/brainsuite/svreg/bin:/The/path/to/your/brainsuite/bdp:/The/path/to/your/brainsuite/bin:$PATH
-  ```
+    ```
+    export PATH=/The/path/to/your/brainsuite/bin:$PATH
+    export PATH=/The/path/to/your/brainsuite/svreg/bin:/The/path/to/your/brainsuite/bdp:/The/path/to/your/brainsuite/bin:$PATH
+    ```
 Also make sure python is added to your system's path as well.
 3. To ensure that this step is completed, open a terminal window and run the command ```bse```. If instruction text shows up, this step has been completed.
 4. Next, install Nipype with the following command
-  ```
-  cd ~/anaconda*/lib/python*/site-packages/
-  git clone https://github.com/nipy/nipype.git
-  cd nipype
-  pip install -r requirements.txt
-  python setup.py develop
-  ```
+    ```
+    cd ~/anaconda*/lib/python*/site-packages/
+    git clone https://github.com/nipy/nipype.git
+    cd nipype
+    pip install -r requirements.txt
+    python setup.py develop
+    ```
 where ```*``` is the version of your anaconda/python. To test it, run ```from nipype.interfaces import brainsuite``` in python. Refer to the installation guide for more [tutorials](http://brainsuite.org/nipype_installation/)
 
 ### Automatic segmentation of MRI based on BrainSuite
