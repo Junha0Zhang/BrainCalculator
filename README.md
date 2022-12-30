@@ -27,9 +27,9 @@ Steps:
 export PATH=/The/path/to/your/brainsuite/bin:$PATH
 export PATH=/The/path/to/your/brainsuite/svreg/bin:/The/path/to/your/brainsuite/bdp:/The/path/to/your/brainsuite/bin:$PATH
 ```
-  Also make sure python is added to your system's path as well.
-4. To ensure that this step is completed, open a terminal window and run the command ```bse```. If instruction text shows up, this step has been completed.
-5. Next, install Nipype with the following command
+Also make sure python is added to your system's path as well.
+3. To ensure that this step is completed, open a terminal window and run the command ```bse```. If instruction text shows up, this step has been completed.
+4. Next, install Nipype with the following command
 ```
 cd ~/anaconda*/lib/python*/site-packages/
 git clone https://github.com/nipy/nipype.git
@@ -37,7 +37,7 @@ cd nipype
 pip install -r requirements.txt
 python setup.py develop
 ```
-  wher ```*``` is the version of your anaconda/python. To test it, run ```from nipype.interfaces import brainsuite``` in python. Refer to the installation guide for more [tutorials](http://brainsuite.org/nipype_installation/)
+where ```*``` is the version of your anaconda/python. To test it, run ```from nipype.interfaces import brainsuite``` in python. Refer to the installation guide for more [tutorials](http://brainsuite.org/nipype_installation/)
 
 ### Automatic segmentation of MRI based on BrainSuite
 This pipeline is based on [BrainSuite](http://brainsuite.org/).
