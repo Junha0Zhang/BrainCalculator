@@ -60,7 +60,7 @@ Simply run `python MRI_processing.py` to process all the images. It takes about 
 **Note**: The code was designed to only sort dataset in this format. Please modify the code if using another dataset with Python depedencies like `os` and `glob`. If the code runs successfully, you'll find a `brainsuite_workflow_cse` folder next to each `***.nii.gz` file. It includes all the outputs from the computation.
 
 ### Distance/Volume calculation
-I put the code in a jupyter notebook with explanations. Please look into it for more details. The required libraries are Open3D 0.16.0, pyvista 0.37.0, fnmatch, etc. Pip install other libraries also if needed. However, for Apple silicon platforms, there is some issue with visualization in Open3D up to September 2022, but it's fine on Windows.
+I put the code in a jupyter notebook `calculation.ipynb` with explanations. Please look into it for more details. The required libraries are Open3D 0.16.0, pyvista 0.37.0, fnmatch, etc. Pip install other libraries also if needed. However, for Apple silicon platforms, there is some issue with visualization in Open3D up to September 2022, but it's fine on Windows.
 
 ## Citations
 If you find this code useful for project, please consider citing:
