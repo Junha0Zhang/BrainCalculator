@@ -29,7 +29,7 @@ Steps:
     ```
     Also make sure python is added to your system's path as well.
 3. To ensure that this step is completed, open a terminal window and run the command ```bse```. If instruction text shows up, this step has been completed.
-4. Next, install Nipype with the following command
+4. Next, install Nipype with the following command is your Python was installed with anaconda
     ```
     cd ~/anaconda*/lib/python*/site-packages/
     git clone https://github.com/nipy/nipype.git
@@ -38,6 +38,8 @@ Steps:
     python setup.py develop
     ```
     where ```*``` is the version of your anaconda/python. To test it, run ```from nipype.interfaces import brainsuite``` in python. Refer to the installation guide for more [tutorials](http://brainsuite.org/nipype_installation/)
+    
+#### Batch processing of MRI
 
 ### Automatic segmentation of MRI based on BrainSuite
 This pipeline is based on [BrainSuite](http://brainsuite.org/).
