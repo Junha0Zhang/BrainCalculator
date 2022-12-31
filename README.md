@@ -40,7 +40,7 @@ Steps:
     where ```*``` is the version of your anaconda/python. To test it, run ```from nipype.interfaces import brainsuite``` in python. Refer to the installation guide for more [tutorials](http://brainsuite.org/nipype_installation/)
     
 #### Batch processing of MRI
-The ADNI dataset is made of around 1000 T1-weighted MRI images of male and female subjects from 51-100 years old, taken in the [Univerisity Hospital Zurich](https://www.usz.ch). For details about the dataset, please ask [Ruiqing Ni](https://biomed.ee.ethz.ch/institute/People/person-detail.html?persid=225279). It is organized as follows:
+The ADNI dataset consists of around 1000 T1-weighted MRI images of male and female subjects from 51-100 years old, taken in the [Univerisity Hospital Zurich](https://www.usz.ch). For details about the dataset, please ask [Ruiqing Ni](https://biomed.ee.ethz.ch/institute/People/person-detail.html?persid=225279). It is organized as follows:
 - `ADNI`
     - `***_S_****`
         - `MPRAGE`
