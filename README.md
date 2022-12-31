@@ -62,7 +62,7 @@ Simply run `python MRI_processing.py` to process all the images. It takes about 
 ### Distance/Volume calculation
 I put the code in a jupyter notebook `calculation.ipynb` with explanations. Please look into it for more details. The required libraries are Open3D 0.16.0, pyvista 0.37.0, fnmatch, etc. Pip install other libraries also if needed. However, for Apple silicon platforms, there is some issue with visualization in Open3D up to September 2022, but it's fine on Windows.
 
-![Example](demo.tif?raw=true)
+![Example](demo.png?raw=true)
 
 ## Citations
 If you find this code useful for your project, please consider citing:
