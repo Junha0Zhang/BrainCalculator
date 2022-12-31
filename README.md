@@ -1,7 +1,7 @@
 ## MRI-SSB: Automatic segmentation and evulation of skull/scalp/brain from batch T1 MRI datasets
 This is the official implementation of the MRI analysis part of the paper:
 
-### [#to-do: paper title and link](https://stars.chromeexperiments.com)
+### [#TO-DO: paper title and link](https://stars.chromeexperiments.com)
 
 [Junhao Zhang](https://junha0zhang.github.io/), [Ruiqing Ni](https://biomed.ee.ethz.ch/institute/People/person-detail.html?persid=225279)
 
@@ -61,3 +61,16 @@ Simply run `python MRI_processing.py` to process all the images. It takes about 
 
 ### Distance/Volume calculation
 I put the code in a jupyter notebook with explanations. Please look into it for more details. The required libraries are Open3D 0.16.0, pyvista 0.37.0, fnmatch, etc. Pip install other libraries also if needed. However, for Apple silicon platforms, there is some issue with visualization in Open3D up to September 2022, but it's fine on Windows.
+
+## Citations
+If you find this code useful for project, please consider citing:
+```
+TO-DO: citation
+```
+
+## Acknowledgments
+In this project we use (parts of) the following open-source works:
+- [BrainSuite](http://brainsuite.org/)
+- [Open3D](http://www.open3d.org/)
+
+ We thank the respective authors for their methods. We would also like to thank reviewers for their valuable inputs. 
