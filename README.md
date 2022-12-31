@@ -16,7 +16,7 @@ This repository consists of two parts: segmentation of MRI regions and measureme
 
 #### Installing BrainSuite's Nipype interface
 This code has been tested on
-- Mac Monterey (Windows is not supported, for Windows users please use a 64-bit Linux VM)
+- Mac Monterey (Windows is not supported unfortunately, for Windows users please use a 64-bit Linux VM like [Oracle VM VirtualBox](https://www.virtualbox.org/))
 - Python 3.9
 - BrainSuite v.21a
 
@@ -29,7 +29,7 @@ Steps:
     ```
     Also make sure python is added to your system's path as well.
 3. To ensure that this step is completed, open a terminal window and run the command ```bse```. If instruction text shows up, this step has been completed.
-4. Next, install Nipype with the following command is your Python was installed with anaconda
+4. Next, install Nipype with the following command if your Python was installed with anaconda
     ```
     cd ~/anaconda*/lib/python*/site-packages/
     git clone https://github.com/nipy/nipype.git
@@ -62,4 +62,4 @@ Simply run `python MRI_processing.py` to process all the images. It takes about 
 **Note**: The code was designed to only sort dataset in this format. Please modify the code if using another dataset with Python depedencies like `os` and `glob`. If the code runs successfully, you'll find a `brainsuite_workflow_cse` folder next to each `***.nii.gz` file. It includes all the outputs from the computation.
 
 #### Distance/Volume calculation
-I put the code in a jupyter notebook with explanations. The required libraries are Open3D 0.16.0, pyvista 0.37.0, fnmatch. Pip install other libraries also if needed. However, for apple silicon platforms, there is some issue with visualization in Open3D up to September 2022, but it's fine on Windows.
+I put the code in a jupyter notebook with explanations. The required libraries are Open3D 0.16.0, pyvista 0.37.0, fnmatch. Pip install other libraries also if needed. However, for Apple silicon platforms, there is some issue with visualization in Open3D up to September 2022, but it's fine on Windows.
