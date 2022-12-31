@@ -56,7 +56,7 @@ The ADNI dataset is made of around 1000 T1-weighted MRI images of male and femal
                 - `I******`  
                     - `***.nii.gz`
     - ...
-*Note*: The code only sorts 
+**Note**: The code only sorts 
 
 ### Automatic segmentation of MRI based on BrainSuite
 This pipeline is based on [BrainSuite](http://brainsuite.org/).
