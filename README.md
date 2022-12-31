@@ -57,9 +57,7 @@ The ADNI dataset consists of around 1000 T1-weighted MRI images of male and fema
                     - `***.nii.gz`
     - ...
 
-Simply run `python MRI_processing.py` to process all the images. It takes about 60 hours to finish this dataset.
+Simply run `python MRI_processing.py` to process all the images. It takes about 60 hours to finish this dataset. After, convert all the .wfo files to .obj (3D mesh) and then it's ready for calculation.
 
 **Note**: The code was designed to only sort dataset in this format. Please modify the code if using another dataset with Python depedencies like `os` and `glob`. If the code runs successfully, you'll find a `brainsuite_workflow_cse` folder next to each `***.nii.gz` file. It includes all the outputs from the computation.
 
-### Automatic segmentation of MRI based on BrainSuite
-This pipeline is based on [BrainSuite](http://brainsuite.org/).
