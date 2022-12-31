@@ -40,6 +40,23 @@ Steps:
     where ```*``` is the version of your anaconda/python. To test it, run ```from nipype.interfaces import brainsuite``` in python. Refer to the installation guide for more [tutorials](http://brainsuite.org/nipype_installation/)
     
 #### Batch processing of MRI
+The ADNI dataset is made of around 1000 T1-weighted MRI images of male and female subjects from 51-100 years old. It is organized as follows:
+- `ADNI`
+    - `***_S_****`
+        - `MPRAGE`
+            - `date`   
+                - `I******`
+                    - `***.nii.gz`  
+        - `MPRAGE_SENSE2`
+            - `date` 
+                - `I******` 
+                    - `***.nii.gz`
+        - `Sagittal_3D_Accelerated_MPRAGE`
+            - `date`  
+                - `I******`  
+                    - `***.nii.gz`
+    - ...
+
 
 ### Automatic segmentation of MRI based on BrainSuite
 This pipeline is based on [BrainSuite](http://brainsuite.org/).
