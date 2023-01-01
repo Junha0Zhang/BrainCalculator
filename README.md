@@ -8,6 +8,7 @@ This is the official implementation of the MRI analysis part of the paper:
 ### Contact
 If you have any questions, please let us know:
 - Junhao Zhang {zhangjunhao957@gmail.com}
+- Ruiqing Ni {ni@biomed.ee.ethz.ch}
 
 ## Instructions
 This repository consists of two parts: segmentation of MRI regions and measurements of thicknesses/distances.
