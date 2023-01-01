@@ -9,6 +9,7 @@ This is the official implementation of the MRI analysis part of the paper:
 If you have any questions, please let us know:
 - Junhao Zhang {zhangjunhao957@gmail.com}
 - Ruiqing Ni {ni@biomed.ee.ethz.ch}
+
 Copyright (c) 2022-2023 Junhao Zhang et al.
 
 ## Instructions
