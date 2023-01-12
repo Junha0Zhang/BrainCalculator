@@ -1,4 +1,4 @@
-## BrainCalculator: Automatic segmentation and evulation of skull/scalp/brain from batch T1 MRI datasets
+## BrainCalculator: Automatic segmentation and evulation of skull thickness/scalp-to-cortex distance from large T1 MRI datasets
 This is the official implementation of the MRI analysis part of the paper:
 
 ### [#TO-DO: paper title and link](https://stars.chromeexperiments.com)
