@@ -67,14 +67,15 @@ I put the code in a jupyter notebook `calculation.ipynb` with explanations. Plea
 
 
 ## Citations
-If you find this code useful for your project, please consider citing:
-```
-TO-DO: citation
-```
+If you find this code useful for your project, please cite: Automatic analysis of skull thickness, scalp-to-cortex distance and association with age and sex in cognitively normal elderly
+Junhao Zhang, Valerie Treyer, Junfeng Sun, Chencheng Zhang, Anton Gietl, Christoph Hock, Daniel Razansky,Roger M. Nitsch, Ruiqing Ni; for ADNI.
+Brain Stimulation: Basic, Translational, and Clinical Research in Neuromodulation, DOI:https://doi.org/10.1016/j.brs.2023.03.011
+
 
 ## Acknowledgments
 In this project we use (parts of) the following open-source works:
 - [BrainSuite](http://brainsuite.org/)
 - [Open3D](http://www.open3d.org/)
 
+- Data: Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu)
  We thank the respective authors for their methods. We would also like to thank reviewers for their valuable inputs. 
