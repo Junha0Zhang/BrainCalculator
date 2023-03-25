@@ -1,7 +1,7 @@
 ## BrainCalculator: Automatic segmentation and evulation of skull thickness/scalp-to-cortex distance from large T1 MRI datasets
 This is the official implementation of the MRI analysis part of the paper:
 
-### [#TO-DO: paper title and link](https://stars.chromeexperiments.com)
+### [#Automatic analysis of skull thickness, scalp-to-cortex distance and association with age and sex in cognitively normal elderly](https://www.brainstimjrnl.com/article/S1935-861X(23)01711-4/fulltext)
 
 [Junhao Zhang](https://junha0zhang.github.io/), [Ruiqing Ni](https://biomed.ee.ethz.ch/institute/People/person-detail.html?persid=225279)
 
