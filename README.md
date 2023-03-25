@@ -78,4 +78,4 @@ In this project we use (parts of) the following open-source works:
 - [Open3D](http://www.open3d.org/)
 
 - Data: Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu)
- We thank the respective authors for their methods. We would also like to thank reviewers for their valuable inputs. 
+
