@@ -41,7 +41,7 @@ Steps:
     where ```*``` is the version of your anaconda/python. To test it, run ```from nipype.interfaces import brainsuite``` in python. Refer to the [installation guide](http://brainsuite.org/nipype_installation/) for more tutorials.
     
 ### Batch processing of MRI
-The ADNI dataset consists of around 1000 T1-weighted MRI images of male and female subjects from 51-100 years old, taken in the [Univerisity Hospital Zurich](https://www.usz.ch). For details about the dataset, please ask [Ruiqing Ni](https://biomed.ee.ethz.ch/institute/People/person-detail.html?persid=225279). It is organized as follows:
+Around 400 T1-weighted MRI images of male and female non-demented control subjects from 51-100 years old from the ADNI dataset was used (https://adni.loni.usc.edu/). Data used in preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in analysis or writing of this report. A complete listing of ADNI investigators can be found at: http://adni.loni.usc.edu/wp-content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf. For details about the dataset, please contact [Ruiqing Ni](https://biomed.ee.ethz.ch/institute/People/person-detail.html?persid=225279). It is organized as follows:
 - `ADNI`
     - `***_S_****`
         - `MPRAGE`
